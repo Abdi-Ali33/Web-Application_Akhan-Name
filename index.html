@@ -23,18 +23,21 @@
       <input type="number" class="form-control" id="date" placeholder="Enter Date of Birth" name="date">
     </div>
     <div class="form-group">
-      <label for="month">Gender</label><br>
-      <div class="form-check-inline">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
-        </label>
+      <div class="radio">
+        <label for="month" class="Gender">Gender</label><br>
+        <div class="form-radio">
+          <label class="form-radio-label">
+            <input type="radio" class="form-input" name="gender" id="male">&nbsp;Male 
+          </label>
+        </div>
+        <div class="form-radio">
+          <label class="form-radio-label">
+            <input type="radio" class="form-input" name="gender" id="female">&nbsp;Female 
+          </label>
+        </div>
       </div>
-      <div class="form-check-inline">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+    
+      <button type="submit" class="btn" onclick="findName();">Get Name</button>
   </form>
 </body>
 </html>
