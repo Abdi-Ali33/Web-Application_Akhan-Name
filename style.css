@@ -85,12 +85,19 @@ input[type="radio"] {
   padding-bottom: 20px;
 }
 #description h1 {
-  color: white;
+  color: yellow;
 }
 #description p {
-  color: white;
+  color: rgb(250, 185, 185);
   line-height: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
+}
+/* footer styling */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
