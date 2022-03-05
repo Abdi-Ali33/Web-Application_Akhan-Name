@@ -76,3 +76,11 @@ input[type="radio"] {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
+#description {
+  text-align: center;
+}
+
+#description p {
+  color: white;
+  display: inline;
+}
