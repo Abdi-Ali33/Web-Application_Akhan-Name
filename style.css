@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   background: url(./images/back5.jpg) no-repeat center/cover;
 }
-.box {
+.myForm {
   width: 350px;
   padding: 40px;
   margin-top: 200px;
@@ -17,12 +17,12 @@ body {
   border-radius: 25px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
 }
-.box h1 {
+.myForm h1 {
   color: white;
   text-transform: uppercase;
   font-weight: 500;
 }
-.box input[type="number"] {
+.myForm input[type="number"] {
   border: 0;
   background: none;
   display: block;
@@ -36,10 +36,10 @@ body {
   border-radius: 24px;
   transition: 0.25s;
 }
-.box .form-group {
+.myForm .form-group {
   color: white;
 }
-.box input[type="number"]:focus {
+.myForm input[type="number"]:focus {
   width: 280px;
   border-color: #2ecc71;
 }
@@ -56,7 +56,7 @@ body {
 .form-radio {
   padding-left: 13px;
 }
-.box .btn {
+.myForm .btn {
   border: 0;
   background: none;
   display: block;
@@ -70,7 +70,7 @@ body {
   transition: 0.25s;
   cursor: pointer;
 }
-.box .btn:hover {
+.myForm .btn:hover {
   background-color: #2ecc71;
 }
 
