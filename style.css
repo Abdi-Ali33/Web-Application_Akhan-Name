@@ -5,9 +5,9 @@ body {
   background: #34495e;
 }
 .box {
-  width: 300px;
+  width: 350px;
   padding: 40px;
-  margin-top: 150px;
+  margin-top: 170px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -78,9 +78,17 @@ input[type="radio"] {
 }
 #description {
   text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
 }
-
+#description h1 {
+  color: white;
+}
 #description p {
   color: white;
-  display: inline;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
