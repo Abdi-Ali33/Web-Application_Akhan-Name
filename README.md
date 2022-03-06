@@ -38,3 +38,11 @@ This project is a web application that takes a user's birthday and calculates th
 3. Displays an Error Message if Gender Not Chosen
    - INPUT: ""
    - OUTPUT: "Display an Error Message"
+
+## Known Bugs
+
+- Some output are not as accurate as expected..
+
+## Link to Live Site :
+
+https://abdi-ali33.github.io/Web-Application_Akhan-Name/
