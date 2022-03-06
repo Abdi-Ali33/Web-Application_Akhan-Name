@@ -4,10 +4,13 @@ body {
   font-family: sans-serif;
   background: url(./images/back5.jpg) no-repeat center/cover;
 }
+.container {
+  margin-bottom: 620px;
+}
 .myForm {
   width: 350px;
   padding: 40px;
-  margin-top: 200px;
+  margin-top: 170px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -95,9 +98,17 @@ input[type="radio"] {
   font-size: 20px;
 }
 /* footer styling */
-#main-footer {
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  background: #444;
-  color: #fff;
-  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 500px;
+}
+
+.footer p {
+  font-size: 17px;
+  margin-bottom: 0px;
+  padding: 5px 0px 5px 0px;
 }

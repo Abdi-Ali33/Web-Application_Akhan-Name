@@ -8,45 +8,47 @@
   <title>A Khan Names</title>
 </head>
 <body>
-  <div id="description"> 
-    <h1>Welcome To the project</h1>
-    <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan name.
-    Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
-  </div>
-  <form name="myForm" class="myForm" onsubmit="validate();">
-    <h1>A kan Names</h1>
-    <div class="form-group">
-      <label for="number">Year of Birth:</label>
-      <input type="number" class="form-control" id="year" placeholder="Enter Year of Birth" name="year">
+  <div class="container">
+    <div id="description"> 
+      <h1>Welcome To the project</h1>
+      <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan name.
+      Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
     </div>
-    <div class="form-group">
-      <label for="month">Month of Birth:</label>
-      <input type="number" class="form-control" id="month" placeholder="Enter Month of Birth" name="month">
-    </div>
-    <div class="form-group">
-      <label for="date">Date of Birth:</label>
-      <input type="number" class="form-control" id="date" placeholder="Enter Date of Birth" name="date">
-    </div>
-    <div class="form-group">
-      <div class="radio">
-        <label for="month" class="Gender">Gender</label><br>
-        <div class="form-radio">
-          <label class="form-radio-label">
-            <input type="radio" class="form-input" name="gender" id="male">&nbsp;Male 
-          </label>
-        </div>
-        <div class="form-radio">
-          <label class="form-radio-label">
-            <input type="radio" class="form-input" name="gender" id="female">&nbsp;Female 
-          </label>
-        </div>
+    <form name="myForm" class="myForm" onsubmit="validate();">
+      <h1>A kan Names</h1>
+      <div class="form-group">
+        <label for="number">Year of Birth:</label>
+        <input type="number" class="form-control" id="year" placeholder="Enter Year of Birth" name="year">
       </div>
-    
-      <button type="submit" class="btn" onclick="findName();">Get Name</button>
-  </form>
-  <!-- <footer id="main-footer">
-      <p>powered by Abdi, &copy; 2022, All Rights Reserved</p>
-  </footer> -->
+      <div class="form-group">
+        <label for="month">Month of Birth:</label>
+        <input type="number" class="form-control" id="month" placeholder="Enter Month of Birth" name="month">
+      </div>
+      <div class="form-group">
+        <label for="date">Date of Birth:</label>
+        <input type="number" class="form-control" id="date" placeholder="Enter Date of Birth" name="date">
+      </div>
+      <div class="form-group">
+        <div class="radio">
+          <label for="month" class="Gender">Gender</label><br>
+          <div class="form-radio">
+            <label class="form-radio-label">
+              <input type="radio" class="form-input" name="gender" id="male">&nbsp;Male 
+            </label>
+          </div>
+          <div class="form-radio">
+            <label class="form-radio-label">
+              <input type="radio" class="form-input" name="gender" id="female">&nbsp;Female 
+            </label>
+          </div>
+        </div>
+      
+        <button type="submit" class="btn" onclick="findName();">Get Name</button>
+    </form>  
+  </div>
+  
+  <footer class="footer"><p>Powered by <a href=https://github.com/Abdi-Ali33/Web-Application_Akhan-Name target="_blank">Abdi</a>. &copy; 2022 All Rights Reserved. Akan Names Application.</p></footer>
+ 
   <script src="./javascript/script.js"></script>
 </body>
 </html>
