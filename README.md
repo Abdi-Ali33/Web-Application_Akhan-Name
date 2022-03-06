@@ -11,3 +11,11 @@ This project is a web application that takes a user's birthday and calculates th
 ## Screenshot
 
 <img src="./images/akan-images.png" width="800px" height="400px">
+
+## Setup Instructions and Installation
+
+- Clone this repository to a location in your file system. `git clone https://github.com/Abdi-Ali33/Web-Application_Akhan-Name.git`
+
+- Open terminal command line then navigate to the root folder of the application. `cd Akan-Names`
+
+- Open `index.html` on your Browser.
